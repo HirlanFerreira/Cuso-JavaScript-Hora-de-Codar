@@ -18,3 +18,7 @@ if (idade > 18) {
 }
 
 console.log('Depois do if');
+
+if (idade > 18) {
+  console.log('maior de idade');
+}
