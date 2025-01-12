@@ -8,17 +8,19 @@
 // Executa um bloco de código se a instrução for verdadeira:
 // se for falsa, segue o código
 // Lembrando que: true e false são do tipo boolean;
-var idade = 20;
+var idade = 16;
+var idadeMinima = 18;
 
 console.log('antes do if');
 
 
-if (idade > 18) {
+if (idade > idadeMinima) {
   console.log('pode fazer a carteira de habilitação');
 }
 
-console.log('Depois do if');
 
-if (idade > 18) {
-  console.log('maior de idade');
+if (idade > 15) {
+  console.log('precisa esperar');
 }
+
+console.log('Depois do if');
